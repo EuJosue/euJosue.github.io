@@ -6,32 +6,52 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio Josué</title>
+  <link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 
 <body>
-  <h1><a href="#josue">Josué Antonio Kirchner</a></h1>
-  <img src="imagens/Josué.jpeg" width="250px" alt="Foto editada para parecer um desenho do Josué" id="josue">
 
-  <h3> Bom dia; Boa tarde; Boa noite. </h3>
-  <p> Me chamo <strong>Josué Kirchner</strong>, tenho 19 anos <br> Nasci e sempre vivi em Pinhais/PR (região metropolitana de Curitiba)<br> </p>
+  <h1>Josué Antonio Kirchner</h1>
 
-  <h2>Indíce</h2>
-  <ul>
+  <div id="divFotoJosue">
+    <img class="fotoJosue" src="imagens/josueFundoLimpo.png" width="250px"
+      alt="Foto editada para parecer um desenho do Josué" id="josue">
+  </div>
+
+  <h3 id="bomdia"> Bom dia | Boa tarde | Boa noite </h3>
+  <p id="introducao"> Me chamo <strong>Josué Kirchner</strong>, tenho 19 anos
+    <br>
+    Nasci e sempre vivi em Pinhais/PR (região metropolitana de Curitiba)
+    <br><br>
+    <a href="https://www.linkedin.com/in/eujosue/" target="_blank"><img src="imagens/logo-linkedin.png" alt="logo linkedin" width="40px"></a>
+    ⠀⠀⠀⠀⠀⠀⠀⠀⠀<a href="https://github.com/EuJosue" target="_blank"><img src="imagens/logo-github.png" alt="logo GitHub" width="40px"></a>
+  </p>
+
+  <h2 id="indice">Indíce</h2>
+  <ul id="listaIndice">
+    <li><a href="#josue">📸 Foto 📸</a></li>
     <li><a href="#habilidades">Habilidades</a></li>
     <li><a href="#hobbies">Hobbies</a></li>
   </ul>
-  <h3 id="habilidades">Habilidades</h3>
-  <ul>
-    <li><em>Coragem</em></li>
-    <li>Conversação</li>
-    <li>Ouvir</li>
-  </ul>
-  <h3 id="hobbies">Hobbies</h3>
-  <ul>
-    <li>Ler</li>
-    <li>Jogar</li>
-    <li>Ouvir música</li>
-  </ul>
+  <section>
+    <div id="divHabilidadesHobbies">
+      <br>
+      <h3 class="subTitulo" id="habilidades">Habilidades</h3>
+      <ul id="listaHabilidades">
+        <li><em>Paciência</em></li>
+        <li>Conversação</li>
+        <li>Autogestão</li>
+      </ul>
+      <br>
+      <h3 class="subTitulo" id="hobbies">Hobbies</h3>
+      <ul id="listaHobbies">
+        <li>Ler</li>
+        <li>Jogar</li>
+        <li>Ouvir música</li>
+        <br>
+      </ul>
+    </div>
+  </section>
 </body>
 
 </html>
