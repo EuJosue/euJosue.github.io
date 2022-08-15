@@ -16,8 +16,17 @@ h2 {
 }
 
 #divFotoJosue {
-  text-align: center;
-  margin-bottom: -60px;
+  position: relative;
+  margin-top: 80px;
+  height: 412px;
+  width: 1142px;
+  padding-bottom: 120px;
+}
+
+.fotoJosue {
+  margin-left: 100px;
+  width: 250px;
+  background: radial-gradient(red, yellow);
 }
 
 #listaIndice {
@@ -42,14 +51,16 @@ h2 {
 
 #bomdia {
   font-size: 30px;
-  text-align: center;
-  margin-bottom: -5px;
+  position: absolute;
+  top: 2%;
+  left: 42%;
 }
 
 #introducao {
   font-size: 20px;
-  text-align: center;
-  margin-bottom: 150px;
+  position: absolute;
+  top: 30%;
+  left: 39%;
 }
 
 section {
