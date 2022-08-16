@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Dancing Script;
+  src: url(/fonts/Dancing_Script_Regular.24.ttf);
+}
+
+/*------------ Primeira parte --------------*/
+
+#fotoJosue {
+  width: 250px;
+}
+
+.logo {
+  width: 50px;
+  margin: 0 100px;
+}
+
+.divLogos {
+  text-align: center;
+}
+
+#nomeh1 {
+  text-align: center;
+  font-family: Dancing Script;
+  font-size: 45px;
+  padding-top: 30px;
+}
+
+.divFoto {
+  text-align: center;
+  margin-top: -25px;
+}
+
+.header {
+  background-color: #A8BCA1;
+}
+
+.divIntroducao {
+  text-align: center;
+  line-height: 30px;
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+
+.divIntroducao h3 {
+  font-size: 30px;
+  margin-top: -45px;
+  margin-bottom: 21px;
+}
+
+/*------------ Segunda parte --------------*/
+
+.sectionIndex {
+  background-color: #A0BF93;
+  padding: 40px 0;
+}
+
+.divIndex, .divHobbies, .divHabilidades {
+  margin-left: 100px;
+}
+
+.divIndex h2 {
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+
+.uListas li {
+  list-style: inside;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.divIndex li:hover {
+  color: green;
+}
+
+/*------------ Terceira parte --------------*/
+
+.sectionSkills {
+  background-color: #738C69;
+  padding: 40px 0;
+}
+
+.tituloSkillsHobbies {
+  font-size: 25px;
+  padding-bottom: 10px;
+}
+
+/*------------ Quarta parte --------------*/
+
+.sectionHobbies {
+  background-color: #677A5F;
+  padding: 40px 0;
+}

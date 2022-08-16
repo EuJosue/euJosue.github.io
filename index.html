@@ -6,49 +6,57 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfólio Josué</title>
-  <link rel="stylesheet" type="text/css" href="styles/styles.css">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 
 <body>
-
-  <h1>Josué Antonio Kirchner</h1>
-
-  <div id="divFotoJosue">
-    <img class="fotoJosue" src="imagens/josueFundoLimpo.png" width="250px"
-      alt="Foto editada para parecer um desenho do Josué" id="josue">
-  </div>
-
-  <h3 id="bomdia"> Bom dia | Boa tarde | Boa noite </h3>
-  <p id="introducao"> Me chamo <strong>Josué Kirchner</strong>, tenho 19 anos
+  <section class="header">
+    <h1 id="nomeh1">Josué Antonio Kirchner</h1>
+    <div class="divFoto">
+      <img id="fotoJosue" src="imagens/josueFundoLimpo.png" alt="Foto editada do Josué para parecer um desenho.">
+    </div>
+    <div class="divIntroducao">
+      <h3>Bom dia | Boa tarde | Boa noite</h3>
+      <p>Me chamo <strong>Josué Kirchner</strong>, tenho 19 anos.</p>
+      <p>Sou um Estudante de Desenvolvimento Web na <a href="https://www.betrybe.com/">Trybe</a>.</p>
+      <p>Nasci e sempre vivi em <em>Pinhais/PR</em></p>
+    </div>
+    <div class="divLogos">
+      <a href="https://www.linkedin.com/in/eujosue/" target="_blank"><img class="logo" src="imagens/logo-linkedin.png"
+          alt="logo linkedin"></a>
+      <a href="https://github.com/EuJosue" target="_blank"><img class="logo" src="imagens/logo-github.png"
+          alt="logo github"></a>
+    </div>
     <br>
-    Nasci e sempre vivi em Pinhais/PR (região metropolitana de Curitiba)
-    <br><br>
-    <a href="https://www.linkedin.com/in/eujosue/" target="_blank"><img src="imagens/logo-linkedin.png" alt="logo linkedin" width="40px"></a>
-    ⠀⠀⠀⠀⠀⠀⠀⠀⠀<a href="https://github.com/EuJosue" target="_blank"><img src="imagens/logo-github.png" alt="logo GitHub" width="40px"></a>
-  </p>
-
-  <h2 id="indice">Indíce</h2>
-  <ul id="listaIndice">
-    <li><a href="#josue">📸 Foto 📸</a></li>
-    <li><a href="#habilidades">Habilidades</a></li>
-    <li><a href="#hobbies">Hobbies</a></li>
-  </ul>
-  <section>
-    <div id="divHabilidadesHobbies">
-      <br>
-      <h3 class="subTitulo" id="habilidades">Habilidades</h3>
-      <ul id="listaHabilidades">
+  </section>
+  <section class="sectionIndex">
+    <div class="divIndex">
+      <h2>Indíce</h2>
+      <ul class="uListas">
+        <li>Foto (~<a href="#fotoJosue">📸</a>~)</li>
+        <li>Habilidades (~<a href="#habilidades">🧠</a>~)</li>
+        <li>Hobbies (~<a href="#hobbies">📖</a>~)</li>
+      </ul>
+    </div>
+  </section>
+  <section class="sectionSkills">
+    <div class="divHabilidades">
+      <h3 class="tituloSkillHobbies" id="habilidades">Habilidades</h3>
+      <ul class="uListas">
         <li><em>Paciência</em></li>
         <li>Conversação</li>
         <li>Autogestão</li>
       </ul>
-      <br>
-      <h3 class="subTitulo" id="hobbies">Hobbies</h3>
-      <ul id="listaHobbies">
-        <li>Ler</li>
+    </div>
+  </section>
+  <section class="sectionHobbies">
+    <div class="divHobbies">
+      <h3 class="tituloSkillHobbies" id="hobbies">Hobbies</h3>
+      <ul class="uListas">
+        <li>Ler (~<a href="https://forums.spacebattles.com/threads/beware-of-chicken-xianxia.910799/" target="_blank">📖</a>~)</li>
         <li>Jogar</li>
-        <li>Ouvir música</li>
-        <br>
+        <li>Ouvir música (~<a href="https://open.spotify.com/album/6jWde94ln40epKIQCd8XUh" target="_blank">🎧</a>~)</li>
+        
       </ul>
     </div>
   </section>
