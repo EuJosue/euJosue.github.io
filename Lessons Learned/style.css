@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(253, 251, 251);
+}
+
+@font-face {
+  font-family: Alex Brush;
+  src: url('fonts/Alex_Brush_Regular.20.ttf');
+}
+
+.fotoJosue {
+  text-align: center;
+  display: block;
+  padding: 120px 0;
+  background-color: hwb(11 62% 3%);
+}
+
+#cabecalho {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  padding-left: 50px;
+  background-color: hwb(0 50% 6%);
+  height: 70px;
+}
+
+#titulo {
+  border-left: 2px solid black;
+  padding-left: 10px;
+  margin-top: 20px;
+  line-height: 30px;
+  color: rgba(0, 0, 0, 0.856);
+}
+
+#licoes_aprendidas {
+  padding-left: calc(18% - 13px);
+  padding-top: 50px;
+  float: left;
+  line-height: 20px;
+  font-weight: 300;
+  list-style-position: inside;
+}
+
+#licoes_a_aprender {
+  padding-right: calc(18% - 13px);
+  padding-top: 50px;
+  float: right;
+  list-style: inside;
+  line-height: 20px;
+  font-weight: 300;
+}
+
+.tituloLista {
+  font-size: 20px;
+  padding-bottom: 15px;
+  text-decoration: underline;
+}
+
+#rodape {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  padding-right: 10px;
+  background-color: hwb(28 73% 0%);
+  padding-left: 10px;
+  border-radius: 10px;
+}
+
+#nomeRodape {
+  font-family: Alex Brush, cursive;
+  font-size: 30px;
+}
+
+.newwindow {
+  display: none;
+}
+
+.logo {
+  width: 20px;
+  padding-top: 15px;
+  margin-bottom: -5px;
+  padding-right: 4px;
+}
+
+footer a {
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-right: 1.5px solid black;
+}
+
+.lado-esquerdo {
+  float: left;
+  width: 45%;
+  padding-left: 8%;
+  margin-bottom: 35px;
+}
+
+#sectionAprendizado {
+  padding-top: 70px;
+  width: 80%;
+}
+
+#sectionAprendizado > h2 {
+  text-align: center;
+  text-decoration: underline;
+  padding-bottom: 15px;
+}
+
+#sectionAprendizado > p {
+  line-height: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.lado-direito {
+  float: right;
+  width: 45%;
+}
+
+#lado-direito {
+  padding-top: 70px;
+  width: 80%;
+}
+
+#lado-direito > h2 {
+  padding-bottom: 15px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+#lado-direito > p {
+  line-height: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.tabela {
+  clear: both;
+  padding-bottom: 25px;
+  padding-top: 5px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#tituloTabela {
+  padding-top: 70px;
+  font-weight: 900;
+  line-height: 20px;
+  font-size: 19px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.tabela td {
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+.tabela > tbody > tr > td:first-child {
+  border: 1px solid black;
+  line-height: 20px;
+  font-size: 19px;
+  font-weight: 300;
+  text-align: right;
+}
+
+.tabelaGreen {
+  background-color: rgb(25, 151, 25);
+  color: rgb(25, 151, 25);
+  border: 1px solid black;
+}
+
+.tabelavazio {
+  width: 10px;
+}
+
+.tabelaRed {
+  background-color: rgb(230, 30, 30);
+  color: rgb(230, 30, 30);
+  border: 1px solid black;
+}
